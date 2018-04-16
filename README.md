@@ -1,2 +1,2 @@
-# reusme
+# resume
 resume

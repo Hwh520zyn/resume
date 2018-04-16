@@ -1,0 +1,147 @@
+body{
+	background:url(../imgs/background-1.png) no-repeat;
+	background-size:cover ;
+	color: #fff;
+	font-family: "微软雅黑";
+	opacity: .8;
+}
+.wrapper{
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.title .resume{
+	margin-top:10px ;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	font-size: 25px;
+	cursor: pointer;
+}
+.title .resume a{
+	text-decoration: none;
+	color: #fff;
+	transition: all 0.5s;
+}
+.title .resume a:hover{
+	transform: rotateX(360deg);
+	color: #f90;
+}
+.title .position{
+	font-size: 14px;
+	text-align: center;
+	line-height: 30px;
+}
+.line{
+	width: 100%;
+	height: 1px;
+	background: rgba( 255,213,181 );
+}
+
+
+.first-content-box{
+	width:100%;
+	height:auto;
+	display: flex;
+	margin-top: 20px;
+	
+}
+
+.first-content-box .first-con-Left{
+	width: 40%;
+	height: auto;
+}
+
+.first-content-box .first-con-Right{
+	width: 60%;
+	height: auto;
+	border-left:1px solid  rgba( 255,213,181,0.6 );
+}
+.info,.edbg,.work-experience {
+	padding-top:50px ;
+}
+ .title{
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.info p{
+	padding-left: 120px;
+	text-align: left;
+	line-height: 30px;
+}
+.info i{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../imgs/bg-icon.png) no-repeat;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.info .address i{
+	background-position:0 -40px;
+}
+.info .call i{
+	background-position:0 -88px;
+}
+.info .wx i{
+	background-position:0 -130px;
+}
+.info .mail i{
+	background-position:0 -175px;
+}
+
+.work-experience p{
+	padding-left: 120px;
+	line-height: 30px;
+}
+.edu-info{
+	margin-top:90px ;
+}
+.describe{
+	list-style:normal;
+	padding-left: 95px;
+	font-weight: bold;
+	line-height: 30px;
+}
+.second-content-box {
+	margin-top: 100px;
+}
+.second-content-box .title{
+	text-align: center;
+	font-size: 25px;
+}
+
+.project{
+	padding: 0 120px;
+	line-height: 30px;
+	margin-bottom: 50px;
+}
+
+.project li{
+	font-weight: bold;
+}
+.project h2,.project p {
+	padding-left: 25px;
+}
+
+.line2{
+	width: 80%;
+	height:1px ;
+	background: #fff;
+	margin: 0 120px 50px;
+}
+
+.scroll{
+	width: 40px;
+	height: 40px;
+	background: url(../imgs/scroll.png) no-repeat;
+	color: #fff;
+	position: fixed;
+	right: 30px;
+	bottom:50px;
+}
